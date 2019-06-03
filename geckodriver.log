@@ -1,0 +1,1045 @@
+1559556967243	geckodriver	INFO	geckodriver 0.19.1
+1559556967254	geckodriver	INFO	Listening on 127.0.0.1:59895
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 43.72 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559556968856	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.57SVYFmkh8l8"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.57SVYFmkh8l8 ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.57SVYFmkh8l8 Child process initialized in 47.65 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559556970479	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559556970755	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559556970809	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559556972249	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559556972433	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://a21ab408-7b85-41f6-a130-3fc4e19fc28b/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://a21ab408-7b85-41f6-a130-3fc4e19fc28b/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559556981229	Marionette	INFO	Listening on port 43247
+1559556981329	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559557027724	geckodriver	INFO	geckodriver 0.19.1
+1559557027732	geckodriver	INFO	Listening on 127.0.0.1:37993
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 47.15 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557029134	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fpFehTTWAYlb"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.fpFehTTWAYlb ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.fpFehTTWAYlb Child process initialized in 46.47 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557030669	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557030934	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557030974	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557032411	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557032579	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+1559557041773	Marionette	INFO	Listening on port 42673
+1559557041813	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://209e9074-38fd-478f-8abb-3360837e5b34/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1559557064379	geckodriver	INFO	geckodriver 0.19.1
+1559557064391	geckodriver	INFO	Listening on 127.0.0.1:55843
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 42.42 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557065770	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.C0iriFDhqH33"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.C0iriFDhqH33 ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.C0iriFDhqH33 Child process initialized in 44.31 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557067159	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557067413	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557067454	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557068646	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557068816	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://7eb404d5-ebb9-41c7-9d96-a31ac71fd202/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://7eb404d5-ebb9-41c7-9d96-a31ac71fd202/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559557077535	Marionette	INFO	Listening on port 45241
+1559557077578	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://7eb404d5-ebb9-41c7-9d96-a31ac71fd202/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://7eb404d5-ebb9-41c7-9d96-a31ac71fd202/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://7eb404d5-ebb9-41c7-9d96-a31ac71fd202/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://7eb404d5-ebb9-41c7-9d96-a31ac71fd202/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+1559557456729	geckodriver	INFO	geckodriver 0.19.1
+1559557456739	geckodriver	INFO	Listening on 127.0.0.1:58161
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 42.97 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557458125	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FZIOGAwc74GL"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.FZIOGAwc74GL ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.FZIOGAwc74GL Child process initialized in 44.32 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557459689	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557460007	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557460063	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557461366	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557461543	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://2d349c30-52f5-47bd-9006-d49bfa31f4c3/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://2d349c30-52f5-47bd-9006-d49bfa31f4c3/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1559557471050	Marionette	INFO	Listening on port 42883
+1559557471104	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://opendatascience.slack.com
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+console.log: Accessibility service init or shutdown observer does not exist.
+1559557530972	geckodriver	INFO	geckodriver 0.19.1
+1559557530983	geckodriver	INFO	Listening on 127.0.0.1:56421
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 47.98 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557532386	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.jpjqs9zmg6y9"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.jpjqs9zmg6y9 ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.jpjqs9zmg6y9 Child process initialized in 60.33 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557533888	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557534219	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557534271	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557535530	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557535699	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://04e919e2-1ef8-4495-907e-8920568c3e28/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://04e919e2-1ef8-4495-907e-8920568c3e28/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559557544817	Marionette	INFO	Listening on port 43255
+1559557544863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559557695698	geckodriver	INFO	geckodriver 0.19.1
+1559557695706	geckodriver	INFO	Listening on 127.0.0.1:45747
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 48.54 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557697087	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.r6WAivbmGfd1"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+changing root to /proc/1944/root
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.r6WAivbmGfd1 ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.r6WAivbmGfd1 Child process initialized in 57.46 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557698506	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557698762	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557698802	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557700024	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557700220	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+console.log: Accessibility service init or shutdown observer does not exist.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559557709297	Marionette	INFO	Listening on port 42673
+1559557709365	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://cdcc23ad-c899-4793-89f0-ec849d6f129b/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+console.log: Accessibility service init or shutdown observer does not exist.
+1559557828195	geckodriver	INFO	geckodriver 0.19.1
+1559557828202	geckodriver	INFO	Listening on 127.0.0.1:49545
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 44.11 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557829576	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Fe2EdLM3WVeo"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.Fe2EdLM3WVeo ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.Fe2EdLM3WVeo Child process initialized in 42.66 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557830959	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557831242	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557831292	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557832526	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557832699	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559557841184	Marionette	INFO	Listening on port 44473
+1559557841252	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://ee0bae9a-9d0d-415a-890f-e57a74847815/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+1559557870287	geckodriver	INFO	geckodriver 0.19.1
+1559557870299	geckodriver	INFO	Listening on 127.0.0.1:36253
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 42.98 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557871686	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5BLchIdcliIx"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.5BLchIdcliIx ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.5BLchIdcliIx Child process initialized in 52.81 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557873140	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557873404	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557873450	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557874633	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557874808	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559557883689	Marionette	INFO	Listening on port 35751
+1559557883768	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+JavaScript error: moz-extension://37857213-c62b-4b2f-bda2-118167b9dc52/bg/RequestGuard.js, line 118: Error: Message manager disconnected
+1559557916448	geckodriver	INFO	geckodriver 0.19.1
+1559557916460	geckodriver	INFO	Listening on 127.0.0.1:42381
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 43.82 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557917853	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4i2usvVNfCdz"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.4i2usvVNfCdz ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.4i2usvVNfCdz Child process initialized in 54.83 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559557919316	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557919572	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559557919612	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557920823	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559557920997	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://47367dea-eb2e-4084-aea3-3a7585f4ab06/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://47367dea-eb2e-4084-aea3-3a7585f4ab06/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559557929851	Marionette	INFO	Listening on port 39385
+1559557929956	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1559558339142	geckodriver	INFO	geckodriver 0.19.1
+1559558339152	geckodriver	INFO	Listening on 127.0.0.1:42799
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 42.10 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559558340553	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FATy9UpHumK0"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.FATy9UpHumK0 ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.FATy9UpHumK0 Child process initialized in 44.50 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559558341895	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559558342236	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559558342279	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559558343589	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559558343776	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://869e9b30-0702-4fbd-8cec-875276fb7d40/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://869e9b30-0702-4fbd-8cec-875276fb7d40/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559558352571	Marionette	INFO	Listening on port 39631
+1559558352638	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://opendatascience.slack.com/?redir=%2Fmessages%2FC04DA5FUF%2Fp1476105148000596, line 202: ReferenceError: TS is not defined
+JavaScript error: https://opendatascience.slack.com/?redir=%2Fmessages%2FC04DA5FUF%2Fp1476105148000596, line 209: ReferenceError: $ is not defined
+JavaScript error: https://opendatascience.slack.com/?redir=%2Fmessages%2FC04DA5FUF%2Fp1476105148000596, line 203: ReferenceError: $ is not defined
+JavaScript error: https://opendatascience.slack.com/messages/C04DA5FUF/p1476105148000596, line 513: ReferenceError: TS is not defined
+JavaScript error: https://opendatascience.slack.com/messages/C04DA5FUF/p1476105148000596?cdn_fallback=1, line 513: ReferenceError: TS is not defined
+JavaScript error: https://opendatascience.slack.com/messages/C04DA5FUF/p1476105148000596?cdn_fallback=1, line 513: ReferenceError: TS is not defined
+JavaScript error: https://opendatascience.slack.com/messages/C04DA5FUF/p1476105148000596?cdn_fallback=1, line 513: ReferenceError: TS is not defined
+JavaScript error: https://opendatascience.slack.com/messages/C04DA5FUF/p1476105148000596?cdn_fallback=1, line 513: ReferenceError: TS is not defined
+console.log: Accessibility service init or shutdown observer does not exist.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://cfr.slack-edge.com/bv1-6-8cacda2/modern.vendor.ab729dc0aa3056e1babc.min.js, line 1: TypeError: window.getSelection(...) is null
+JavaScript error: https://cfr.slack-edge.com/bv1-6-8cacda2/modern.vendor.ab729dc0aa3056e1babc.min.js, line 1: TypeError: window.getSelection(...) is null
+1559558451440	geckodriver	INFO	geckodriver 0.19.1
+1559558451449	geckodriver	INFO	Listening on 127.0.0.1:51181
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 49.48 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559558452961	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.BNDiAFjxv23a"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.BNDiAFjxv23a ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.BNDiAFjxv23a Child process initialized in 46.73 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559558454132	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559558454367	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559558454399	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559558455671	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559558455847	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://43b1c78a-dbb7-4160-b634-b17c0fa4f1dd/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://43b1c78a-dbb7-4160-b634-b17c0fa4f1dd/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559558464730	Marionette	INFO	Listening on port 39463
+1559558464766	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://opendatascience.slack.com/?redir=%2Fmessages%2FC04DA5FUF%2Fp1476105148000596, line 202: ReferenceError: TS is not defined
+JavaScript error: https://opendatascience.slack.com/?redir=%2Fmessages%2FC04DA5FUF%2Fp1476105148000596, line 209: ReferenceError: $ is not defined
+JavaScript error: https://opendatascience.slack.com/?redir=%2Fmessages%2FC04DA5FUF%2Fp1476105148000596, line 203: ReferenceError: $ is not defined
+JavaScript error: https://opendatascience.slack.com/messages/C04DA5FUF/p1476105148000596, line 513: ReferenceError: TS is not defined
+JavaScript error: https://opendatascience.slack.com/messages/C04DA5FUF/p1476105148000596, line 513: ReferenceError: TS is not defined
+JavaScript error: https://opendatascience.slack.com/messages/C04DA5FUF/p1476105148000596?cdn_fallback=1, line 513: ReferenceError: TS is not defined
+JavaScript error: moz-extension://64b93f6c-51aa-49fe-8ffd-aba324403a22/js/contentscript.js, line 384: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: moz-extension://64b93f6c-51aa-49fe-8ffd-aba324403a22/js/contentscript.js, line 384: NS_ERROR_NOT_INITIALIZED: 
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1559558645115	geckodriver	INFO	geckodriver 0.19.1
+1559558645127	geckodriver	INFO	Listening on 127.0.0.1:46909
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 44.68 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559558646513	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.spFPsiy9RzJi"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.spFPsiy9RzJi ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.spFPsiy9RzJi Child process initialized in 45.33 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559558647660	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559558647900	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559558647932	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559558649113	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559558649294	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://91e31511-a0aa-48f4-9b2c-ec9690195e23/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://91e31511-a0aa-48f4-9b2c-ec9690195e23/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559558658446	Marionette	INFO	Listening on port 39133
+1559558658492	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://opendatascience.slack.com/?redir=%2Fmessages%2FC04DA5FUF%2Fp1476105148000596, line 202: ReferenceError: TS is not defined
+JavaScript error: https://opendatascience.slack.com/?redir=%2Fmessages%2FC04DA5FUF%2Fp1476105148000596, line 209: ReferenceError: $ is not defined
+JavaScript error: https://opendatascience.slack.com/?redir=%2Fmessages%2FC04DA5FUF%2Fp1476105148000596, line 203: ReferenceError: $ is not defined
+JavaScript error: https://opendatascience.slack.com/messages/C04DA5FUF/p1476105148000596, line 513: ReferenceError: TS is not defined
+JavaScript error: https://opendatascience.slack.com/messages/C04DA5FUF/p1476105148000596, line 513: ReferenceError: TS is not defined
+JavaScript error: https://opendatascience.slack.com/messages/C04DA5FUF/p1476105148000596?cdn_fallback=1, line 513: ReferenceError: TS is not defined
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1559558981541	geckodriver	INFO	geckodriver 0.19.1
+1559558981554	geckodriver	INFO	Listening on 127.0.0.1:59195
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 41.70 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559558982935	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.U56Lo7pyZEjf"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.U56Lo7pyZEjf ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.U56Lo7pyZEjf Child process initialized in 41.84 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559558984094	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559558984342	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559558984375	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559558985571	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559558985753	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://71f62b40-4cbc-43c3-9723-0dd95e2ff6e2/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://71f62b40-4cbc-43c3-9723-0dd95e2ff6e2/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559558994280	Marionette	INFO	Listening on port 34481
+1559558994332	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: addon is null
+addon.uninstall/<@chrome://marionette/content/addon.js:148:5
+
+JavaScript error: chrome://marionette/content/listener.js, line 459: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsISyncMessageSender.sendSyncMessage]
+console.log: Accessibility service init or shutdown observer does not exist.
+1559559054740	geckodriver	INFO	geckodriver 0.19.1
+1559559054749	geckodriver	INFO	Listening on 127.0.0.1:54657
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 43.66 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559559056139	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Dvj1h8qSk9w7"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.Dvj1h8qSk9w7 ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.Dvj1h8qSk9w7 Child process initialized in 41.95 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559559057273	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559559057518	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559559057550	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559559058719	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559559058887	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://08b328d8-aac7-4a3b-b78f-47dce63332ed/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://08b328d8-aac7-4a3b-b78f-47dce63332ed/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559559067381	Marionette	INFO	Listening on port 45279
+1559559067423	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: addon is null
+addon.uninstall/<@chrome://marionette/content/addon.js:148:5
+
+JavaScript error: chrome://marionette/content/listener.js, line 459: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsISyncMessageSender.sendSyncMessage]
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1559559304853	geckodriver	INFO	geckodriver 0.19.1
+1559559304862	geckodriver	INFO	Listening on 127.0.0.1:32791
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+Child process initialized in 43.86 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559559306268	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.HJTzONs5L4DY"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 1944, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.HJTzONs5L4DY ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.HJTzONs5L4DY Child process initialized in 41.52 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559559307423	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559559307669	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559559307701	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559559308871	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559559309043	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://12e7716c-8e0c-4bfc-8166-4cdcc13c5d26/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://12e7716c-8e0c-4bfc-8166-4cdcc13c5d26/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559559317550	Marionette	INFO	Listening on port 42363
+1559559317662	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: Error: Cannot uninstall addon {73a6fe31-595d-460b-a920-fcc0f8843232} from locked install location app-global
+uninstallAddon@resource://gre/modules/addons/XPIProvider.jsm:4632:13
+uninstall@resource://gre/modules/addons/XPIProvider.jsm:5650:5
+addon.uninstall/<@chrome://marionette/content/addon.js:148:5
+
+console.log: Accessibility service init or shutdown observer does not exist.
+1559559940865	geckodriver	INFO	geckodriver 0.19.1
+1559559940874	geckodriver	INFO	Listening on 127.0.0.1:60699
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 9276, the first child process inside the sandbox
+Child process initialized in 51.94 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559559942310	mozrunner::runner	INFO	Running command: "/usr/local/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xfX038rvNYjC"
+Reading profile /etc/firejail/firefox.profile
+Reading profile /etc/firejail/firefox-common.profile
+Reading profile /etc/firejail/disable-common.inc
+Reading profile /etc/firejail/disable-devel.inc
+Reading profile /etc/firejail/disable-interpreters.inc
+Reading profile /etc/firejail/disable-programs.inc
+Reading profile /etc/firejail/whitelist-common.inc
+Reading profile /etc/firejail/whitelist-var-common.inc
+Switching to pid 9276, the first child process inside the sandbox
+]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.xfX038rvNYjC ]0;firejail /usr/bin/firefox -marionette -profile /tmp/rust_mozprofile.xfX038rvNYjC Child process initialized in 51.25 ms
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Error: cannot read UID_MIN and/or GID_MIN from /etc/login.defs, using 1000 by default
+Warning: an existing sandbox was detected. /usr/bin/firefox-esr will run without any additional sandboxing features
+1559559943553	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559559943805	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1559559943844	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559559945081	addons.webextension.{73a6fe31-595d-460b-a920-fcc0f8843232}	WARN	Loading extension '{73a6fe31-595d-460b-a920-fcc0f8843232}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1559559945251	addons.webextension.jid1-MnnxcxisBPnSXQ@jetpack	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionUtils.jsm :: runSafeSyncWithoutClone :: line 63"  data: no] undefined 63
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:14
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:65:129
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:434:13
+]]
+JavaScript error: moz-extension://dafa04c0-00fa-45de-8192-4bff9776f4bf/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: moz-extension://dafa04c0-00fa-45de-8192-4bff9776f4bf/content/content.js, line 98: Error: Could not establish connection. Receiving end does not exist.
+1559559954229	Marionette	INFO	Listening on port 43525
+1559559954332	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: Error: Cannot uninstall addon {73a6fe31-595d-460b-a920-fcc0f8843232} from locked install location app-global
+uninstallAddon@resource://gre/modules/addons/XPIProvider.jsm:4632:13
+uninstall@resource://gre/modules/addons/XPIProvider.jsm:5650:5
+addon.uninstall/<@chrome://marionette/content/addon.js:148:5
+
+console.log: Accessibility service init or shutdown observer does not exist.
