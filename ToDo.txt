@@ -1,0 +1,7 @@
+- refresh by new posts
+- update CatBoost
+- more features
+- salary to RUR
+- clusterization of filtered/unfiltered posts
+- median information
+- CatBoost for fork recognition
